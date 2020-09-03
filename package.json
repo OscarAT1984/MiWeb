@@ -1,0 +1,29 @@
+{
+  "name": "miweb",
+  "version": "1.0.0",
+  "description": "Mi pagina web ",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OscarAT1984/MiWeb.git"
+  },
+  "keywords": [
+    "Mi",
+    "web",
+    "Oscar"
+  ],
+  "author": "Oscar Armando Tellez Covarrubias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OscarAT1984/MiWeb/issues"
+  },
+  "homepage": "https://github.com/OscarAT1984/MiWeb#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^7.1.2",
+    "tailwindcss": "^1.7.6"
+  }
+}
