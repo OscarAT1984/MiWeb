@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./build/tailwind.css">
     <title>Mi pagina web</title>
 </head>
-<body class="m-8">
+<body class="m-4">
  <!--INICIA EL PANEL DE NAVEGACION-->
  <nav class="flex items-center justify-between flex-wrap bg-gray-700 p-4 rounded-md">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
@@ -36,59 +36,114 @@
     </div>
   </nav>
 <!--FINALIZA EL PANEL DE NAVEGACION-->
+
 <!--EMPIEZA LAS CARDS-->
 <!--Card 1-->
-<div class="flex mt-20">
-<div class=" max-w-sm rounded overflow-hidden shadow-lg m-auto">
-  <img class="w-full" src="/img/img1.jpg" alt="Sunset in the mountains">
-  <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">Imagen de Algo</div>
-    <p class="text-gray-700 text-base">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-    </p>
-  </div>
-  <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#JS</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#css</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#html</span>
-  </div>
-</div>
+<div class="container my-12 mx-auto px-4 md:px-12">
+  <div class="flex flex-wrap -mx-1 lg:-mx-4">
+      <!-- Columna -->
+      <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+          <!-- Articulo -->
+          <article class="overflow-hidden rounded-lg shadow-lg">
+              <a href="#">
+                  <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random">
+              </a>
+              <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                  <h1 class="text-lg">
+                      <a class="no-underline hover:underline text-black" href="#">
+                          Mi Pagina Web
+                      </a>
+                  </h1>
+                  <p class="text-grey-darker text-sm">
+                      04/09/2020
+                  </p>
+              </header>
+              <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+                  <a class="flex items-center no-underline hover:underline text-black" href="#">
+                      <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
+                      <p class="ml-2 text-sm">
+                          Oscar Armando Tellez Covarrubias
+                      </p>
+                  </a>
+                  <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
+                      <span class="hidden">Like</span>
+                      <i class="fa fa-heart"></i>
+                  </a>
+              </footer>
+          </article>
+      </div>
 <!--Card 2-->
-<div class="max-w-sm rounded overflow-hidden shadow-lg m-auto">
-  <img class="w-full" src="/img/img1.jpg" alt="Sunset in the mountains">
-  <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">Imagen de Algo</div>
-    <p class="text-gray-700 text-base">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-    </p>
-  </div>
-  <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#JS</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#css</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#html</span>
-  </div>
-</div>
+       <!-- Columna -->
+       <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+        <!-- Articulo -->
+        <article class="overflow-hidden rounded-lg shadow-lg">
+            <a href="#">
+                <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random">
+            </a>
+            <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                <h1 class="text-lg">
+                    <a class="no-underline hover:underline text-black" href="#">
+                      Booking Platzi
+                    </a>
+                </h1>
+                <p class="text-grey-darker text-sm">
+                  04/09/2020
+                </p>
+            </header>
+            <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+                <a class="flex items-center no-underline hover:underline text-black" href="#">
+                    <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
+                    <p class="ml-2 text-sm">
+                      Master platzi Cohort 5
+                    </p>
+                </a>
+                <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
+                    <span class="hidden">Like</span>
+                    <i class="fa fa-heart"></i>
+                </a>
+            </footer>
+        </article>
+    </div>
 <!--Card 3-->
-<div class="max-w-sm rounded overflow-hidden shadow-lg m-auto">
-  <img class="w-full" src="/img/img1.jpg" alt="Sunset in the mountains">
-  <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">Imagen de Algo</div>
-    <p class="text-gray-700 text-base">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-    </p>
-  </div>
-  <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#JS</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#css</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#html</span>
-  </div>
+ <!-- Column -->
+ <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+  <article class="overflow-hidden rounded-lg shadow-lg">
+      <a href="#">
+          <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random">
+      </a>
+      <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+          <h1 class="text-lg">
+              <a class="no-underline hover:underline text-black" href="#">
+                Por Definir
+              </a>
+          </h1>
+          <p class="text-grey-darker text-sm">
+            04/09/2020
+          </p>
+      </header>
+
+      <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+          <a class="flex items-center no-underline hover:underline text-black" href="#">
+              <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
+              <p class="ml-2 text-sm">
+                Por Definir
+              </p>
+          </a>
+          <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
+              <span class="hidden">Like</span>
+              <i class="fa fa-heart"></i>
+          </a>
+      </footer>
+  </article>
 </div>
 </div>
 <!--TERMINA LAS CARDS-->
+
 <!-- INICIA TEXTO SOBRE TECNOLOGIAS-->
-
-
-
+<div class="mt-10 text-center">
+<p>Que Tecnologias Son las Que Conosco</p>
+<p>Las tecnologias que trabajo actualmente son HTML CSS JS TAILWINDCSS REACT.JS NODE.JS</p>
+</div>
 <!-- TERMINA TEXTO SOBRE TECNOLOGIAS-->
 </body>
 </html>
